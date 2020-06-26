@@ -1,12 +1,48 @@
-Question 3.0: User Story
-3.1: Definition
-User story in general are a bunch templates or schemes (either physical or intangible means like software) of describing a certain task within a project typically from the userís perspective. Given a broad scenario, of a well-organized team utilizing ëuser storyí to get a project done, they would create multiple sequences of short term goals to be achieved within a well-defined period and as well as the description of each minute task leading to the completion of the project. Analyzing this scenario, this way of approaching a project helps the stakeholders of the project (client, developers, etc) to able to visualize their mini-goals that needs to be set within a given time frame, track the progress of the development and to be able to produce a certain useable product as each goal is being achieved.
-Keep in mind these fits couple of the principles of the agile manifesto, that is ìworking software is the primary measure of progressî, ìSimplicity--the art of maximizing the amount of work not done--is essentialî and ìOur highest priority is to satisfy the customer through early and continuous delivery of valuable softwareî from (Beck, K., et al., 2001) That is the reason why user stories are useful in software development especially but not exclusively to Scrum methodology, even sprints in Scrum is basically are as describe in the above scenario that is short-term goals to be achieved within a certain time frame. 
-In short, user story is a tool utilized widely in Agile software development, by taking the perspective of a user, of describing the software both in either features and design which in turn helps to comprehend the requirement and scope of the project.
-3.2 Implementation of User Story to Help Clone a Search Engine like Google 
-The Connextra template will be used to answer this question in github (Kanban board style), however the caveat is it will not include the element of time as I do lack both the experience and technicality of developing and operating a project of this calibre, also in reality a specific deadline is usually upon the consensus of the stakeholders of the project.
+#Question 3.0: User Story
+##3.1: Definition
+User story in general are a bunch templates or schemes (either physical or intangible means like software) of describing a certain task within a project typically
+from the user‚Äôs perspective. Given a broad scenario, of a well-organized team utilizing ‚Äòuser story‚Äô to get a project done, they would create multiple sequences 
+of short term goals to be achieved within a well-defined period and as well as the description of each minute task leading to the completion of the project. 
+Analyzing this scenario, this way of approaching a project helps the stakeholders of the project (client, developers, etc) to able to visualize their mini-goals 
+that needs to be set within a given time frame, track the progress of the development and to be able to produce a certain useable product as each goal is being achieved.
+
+Keep in mind these fits couple of the principles of the agile manifesto, that is ‚Äúworking software is the primary measure of progress‚Äù, ‚ÄúSimplicity--the art of maximizing
+the amount of work not done--is essential‚Äù and ‚ÄúOur highest priority is to satisfy the customer through early and continuous delivery of valuable software‚Äù from 
+(Beck, K., et al., 2001) That is the reason why user stories are useful in software development especially but not exclusively to Scrum methodology, even sprints in 
+Scrum is basically are as describe in the above scenario that is short-term goals to be achieved within a certain time frame. 
+
+In short, user story is a tool utilized widely in Agile software development, by taking the perspective of a user, of describing the software both in either features 
+and design which in turn helps to comprehend the requirement and scope of the project.
+
+##3.2 Implementation of User Story to Help Clone a Search Engine like Google 
+The Connextra template will be used to answer this question, however the caveat is it will not include the element of time as I do lack both the experience and technicality of developing and operating a project of this calibre, also in reality a specific deadline is usually upon the consensus of the stakeholders of the project.
 As a<role>,I can<function>,so that<benefit>
 Google Clone (User Story)
-*refer under project in github
-Reference
+___________________________________________________________________________________________________________________________________________
+Title:Search query with results
+Content
+As a user, i want to search a search term, so that i can navigate to my desired page.
+Acceptance Criteria
+Given that i am user, when i type in a desired search term and press the search button, then the search engine will display search results.
+___________________________________________________________________________________________________________________________________________
+Title:Search query without results
+Content
+As a user, i want to randomly type irrelevant search term, so that browser will not display a result.
+Acceptance Criteria
+Given that, i as a user, types in a random set of words and click search, the search engine displays no result.
+___________________________________________________________________________________________________________________________________________
+Title:Search query with alternate suggestions
+Feature
+As a user, i want search a search term, so that i get search results of alternate suggestions
+Acceptance Criteria
+Given that as a user, i type a search term and press enter, the search engine, displays suggest alternate terms but prioritizing the typed term.
+___________________________________________________________________________________________________________________________________________
+Title:Search query with suggestions
+Improvements
+As a user, i want to mistype my search query, so that browser will able to give suggestion despite my error.
+Acceptance Criteria
+Given that i type a search query but misspelled it, the search engine drops a suggestion menu to correct my search.
+___________________________________________________________________________________________________________________________________________
+
+##Reference
 Beck, K., et al., 2001. The Agile Manifesto. [online] Agile Alliance. Available at 	http://agilemanifesto.org/ [Accessed 25 June 2020].
