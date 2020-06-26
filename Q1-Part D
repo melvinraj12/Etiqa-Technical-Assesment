@@ -31,50 +31,51 @@ where,
 n=total number of character in the input
 
 Test
-case	  No. of alphabet(s), N.	  Description	                                              Example
+case	  No. of alphabet(s), N.	  Description	                                            Example
+
 1	      1	                        Any Random Character	                                    'a'
-______________________________________________________________________________________________________
+______________________________________________________________________________________________________________                                  
 2	      2	                        Any Random Character	                                    'ab'
 
-3		                              All Same Character	                                      'aa'
-______________________________________________________________________________________________________
+3		                        All Same Character	                            	    'aa'
+______________________________________________________________________________________________________________                                  
 4	      3	                        Any Random Character	                                    'abc'
 
-5		                              All Same Character	                                      'aaa'
+5		                        All Same Character	                                    'aaa'
 
-6		                              1st and Last Character same but unique                    'ab'
-                                  to middle character	                        
-______________________________________________________________________________________________________
-7	      4                         Any Random Character                                      'abcd'
+6		                        1st and Last Character same but unique                      'aba'
+                                        to middle character	                        
+______________________________________________________________________________________________________________                                  
+7	      4                         Any Random Character                                        'abcd'
         (even nth 
         characters)		
-8		                              All Same Character	                                       'aaaa'
+8		                        All Same Character	                                    'aaaa'
 
-9		                              1st and Last (Ce) Characters in palindrome order           'abca'
-                                  but unique to the middle characters all  
-                                  unique to each other	
+9		                        1st and Last (Ce) Characters in palindrome order            'abca'
+                                        but unique to the middle characters all  
+                                        unique to each other	
                                   
-10		                            1st and Last (Ce) Characters in palindrome order           'abba'
-                                  but unique to the middle characters all
-                                  the same to each other
-______________________________________________________________________________________________________                                  
-11	   5                          Any Random Character	                                     'abcde'
+10		                        1st and Last (Ce) Characters in palindrome order            'abba'
+                                        but unique to the middle characters all
+                                        the same to each other
+____________________________________________________________________________________________________________                                  
+11	   5                            Any Random Character	                                    'abcde'
        (odd nth 
        characters)	
-12		                            All Same Character	                                       'aaaaa'
+12		                        All Same Character	                                    'aaaaa'
 
-13		                            1st and Last (Co) Characters in palindrome order           'ab*ba'
-                                  but unique to the middle characters all 
-                                  unique to each other	
+13		                        1st and Last (Co) Characters in palindrome order            'ab*ba'
+                                        but unique to the middle characters all 
+                                        unique to each other	
                                   
-14		                            1st and Last (Co) Characters in palindrome order           'abcba'
-                                  but unique to the middle characters all 
-                                  the same to each other	
+14		                        1st and Last (Co) Characters in palindrome order            'abcba'
+                                        but unique to the middle characters all 
+                                        the same to each other	
                                   
 ~	     Nth                        Follows the same rules for any even number of 
-       (repetitaive to            characters (4 onwards) and any odd number of 
-       previous)                  characters (5 onwards)	~
- ______________________________________________________________________________________________________    
+       (repetitaive to                  characters (4 onwards) and any odd number of 
+       previous)                        characters (5 onwards)	~
+ ______________________________________________________________________________________________________________                                      
 #Approach to testing
 By implementing a function outside or in the main function, to return all the false and true value, using the test cases above.
 Sample:
@@ -96,10 +97,3 @@ case (Test case 3):
 .
 .
 }
-
-                         
-       
-
-
-
- 
