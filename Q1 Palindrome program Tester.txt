@@ -7,18 +7,38 @@
 
 #include <iostream>
 #include <string.h>
+#include <cctype>
 using namespace std;
-int main()
-{
-	char a[50]={0}, a1[50]= {0};
-	cin>>a; //a
-	int l = strlen(a) - 1;
-	for (int i = l, j = 0; i >= 0; i--, j++)
-	{a1[j] = a[i];}
-	bool c = strcmp(a, a1) == 0 ? true : false;//b and c
-	if (c == 1)
-	{cout << "True";}
-	else
-	{cout << "False";}
+
+int main() {
+	char a[50]={0},a1[50]={0},a2[50]={0};
+	cin.getline(a,50);
+	int l=strlen(a);
+	for (int i=0; i<l; i++)
+    	{a[i]=(tolower(a[i]));}
+
+	for (int i=0,j=0;i<l;i++,j++)
+	{
+	if ((a[i]>=48&&a[i]<=57)||(a[i]>=65&&a[i]<=90)||(a[i]>=97&&a[i]<=122))
+    	{a[i]=a[j];}
+		else
+    	{a[i]=' ';}
 	}
+
+	for (int i=0,j=0;i<=l;i++,j++)
+	{
+        if(isspace(a[i])==0)
+        {a2[i]=a[j];}
+		else 
+		{j++;a2[i]=a[j];}
+	}
+	int le=strlen(a2)-1;
+	for (int i=le, j=0 ; i>=0 ; i--,j++)
+	{a1[j]=a2[i];}
+	cout<<a1<<endl;
+	bool f=strcmp(a2,a1)==0?true:false;
+	if(f==1)
+	{cout<<"True";}
+	else 
+	{cout<<"False";}
 }
