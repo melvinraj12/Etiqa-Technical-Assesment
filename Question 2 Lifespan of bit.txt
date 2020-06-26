@@ -1,14 +1,39 @@
-Question 2.0: Bit Lifespan in Multitiered Web Architecture
-The question is tackled by first defining what a bit and a multitiered Web Architecture is, then by describing the correlation between the both eventually leading to answering the lifespan or duration of which a bit ceases to function.
-2.1 Definition of bit in networking 
-According to (Mitchell, 2020), through electrical signals or light transmission, that is encoded to the network. The transmission protocol for sending and receiving data in sequences of bit form is defined as bit-oriented, Point to Point Transmission one such example however it is outdated and insecure despite this downfall it is relatively easy to set up and cheap.
-2.2 Multi-tiered Web Architecture
-3 tier architecture is the most widely used of all multi-tiered architecture, traditionally, a computer gets promoted to server status, by having a database engine, code interpreter and compiler, all these functions all in the same platform, was problematic for several reasons thus the need to separate, leading towards the 3 tier architecture to meet the current standards of today. In a typical layout, the 1st tier is the user interface contains the presentation logic, commonly known as a thin client, and has a few business logic servers which handle stuff like simple control, user input, etc. The 2nd tier is the application server whereby providing business process logic and data access. And the final tier being is a data server where business data is stored or provided back.
-2.3 Correlation of bit and 3 tier web architecture
-Take an analogy of a typical user searching a term in a browser. When a user types and searches from the browser, via any standard transmission protocol (eg. Transmission Control Protocol [TCP]), data or bit is sent from the user’s device (mobile, laptop, etc) requesting to 2nd tier business logic server through the means of an application protocol (eg. Hyper Text Transfer Protocol [HTTP]). For simplification, TCP and HTTP is the preferred protocol on all tier for the mode of communication.  
-On a side note, the client does have some business logic, like having to take in an input, simple validation of word searched, etc. Though technically the more important browser logic mostly resides within the 2nd tier. Going back to the analogy, the application server, realizes it is a search query, thus reading the data from the data server, the data server obliges the request by responding back the data stored to the 2nd tier server, the 2nd tier verifies, restructures if need be, responds back to the Client-side by displaying the appropriate results.
-2.4 Lifespan of a bit of the above correlation
- By definition lifespan is the period or a time frame of which a certain thing ceases to exist or function. Taking into consideration the definition, a bit (1-bit) ceases when it reaches a destination, if that is the case, latency or traceability can be used to define the lifespan of a bit. However, it is tough ascertain a both latency and traceability through vague description of the previous analogy. Also, in reality the shorter lifespan the better is it for the client, as load time reduces drastically, according to (Anderson, 2020), if that is the case 1-300 millisecond are current standard performance to meet a satisfied client.
-Reference
-Anderson, S., 2020. How Fast Should A Website Load?. [online] Hobo-web.co.uk. Available 	at: <https://www.hobo-web.co.uk/your-website-design-should-load-in-4-seconds/> 	[Accessed 25 June 2020].
-Mitchell, B., 2020. Computer Technology Is Based On The Concept Of The Bit. [online] 	Lifewire. Available at: <https://www.lifewire.com/definition-of-bit-816250> 	[Accessed 25 June 2020].
+#Question 2.0: Bit Lifespan in Multitiered Web Architecture
+The question is tackled by first defining what a bit and a multitiered Web Architecture is, then by describing the correlation 
+between the both eventually leading to answering the lifespan or duration of which a bit ceases to function.
+
+##2.1 Definition of bit in networking 
+According to (Mitchell, 2020), through electrical signals or light transmission, that is encoded to the network. The transmission 
+protocol for sending and receiving data in sequences of bit form is defined as bit-oriented, Point to Point Transmission one such 
+example however it is outdated and insecure despite this downfall it is relatively easy to set up and cheap.
+
+##2.2 Multi-tiered Web Architecture
+3 tier architecture is the most widely used of all multi-tiered architecture, traditionally, a computer gets promoted to server status,
+by having a database engine, code interpreter and compiler, all these functions all in the same platform, was problematic for several 
+reasons thus the need to separate, leading towards the 3 tier architecture to meet the current standards of today. In a typical layout, 
+the 1st tier is the user interface contains the presentation logic, commonly known as a thin client, and has a few business logic servers
+which handle stuff like simple control, user input, etc. The 2nd tier is the application server whereby providing business process logic 
+and data access. And the final tier being is a data server where business data is stored or provided back.
+
+##2.3 Correlation of bit and 3 tier web architecture
+Take an analogy of a typical user searching a term in a browser. When a user types and searches from the browser, via any standard transmission 
+protocol (eg. Transmission Control Protocol [TCP]), data or bit is sent from the userâ€™s device (mobile, laptop, etc) requesting to 2nd tier 
+business logic server through the means of an application protocol (eg. Hyper Text Transfer Protocol [HTTP]). For simplification, TCP and HTTP 
+is the preferred protocol on all tier for the mode of communication.  
+On a side note, the client does have some business logic, like having to take in an input, simple validation of word searched, etc. Though technically 
+the more important browser logic mostly resides within the 2nd tier. Going back to the analogy, the application server, realizes it is a search query,
+thus reading the data from the data server, the data server obliges the request by responding back the data stored to the 2nd tier server, the 2nd tier 
+verifies, restructures if need be, responds back to the Client-side by displaying the appropriate results.
+
+##2.4 Lifespan of a bit of the above correlation
+ By definition lifespan is the period or a time frame of which a certain thing ceases to exist or function. Taking into consideration the definition, 
+ a bit (1-bit) ceases when it reaches a destination, if that is the case, latency or traceability can be used to define the lifespan of a bit. 
+ However, it is tough ascertain a both latency and traceability through vague description of the previous analogy. Also, in reality the shorter 
+ lifespan the better is it for the client, as load time reduces drastically, according to (Anderson, 2020), if that is the case 1-300 millisecond 
+ are current standard performance to meet a satisfied client.
+ 
+##Reference
+Anderson, S., 2020. How Fast Should A Website Load?. [online] Hobo-web.co.uk. Available 	at: <https://www.hobo-web.co.uk/your-website-design-should-
+load-in-4-seconds/> 	[Accessed 25 June 2020].
+Mitchell, B., 2020. Computer Technology Is Based On The Concept Of The Bit. [online] 	Lifewire. Available at: <https://www.lifewire.com/definition-of
+-bit-816250> [Accessed 25 June 2020].
