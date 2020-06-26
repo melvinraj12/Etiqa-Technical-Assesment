@@ -28,7 +28,7 @@ verifies, restructures if need be, responds back to the Client-side by displayin
 
  
 ##Reference
-Anderson, S., 2020. How Fast Should A Website Load?. [online] Hobo-web.co.uk. Available 	at: <https://www.hobo-web.co.uk/your-website-design-should-
+Anderson, S., 2020. How Fast Should A Website Load?. [online] Hobo-web.co.uk. Available at: <https://www.hobo-web.co.uk/your-website-design-should-
 load-in-4-seconds/> 	[Accessed 25 June 2020].
-Mitchell, B., 2020. Computer Technology Is Based On The Concept Of The Bit. [online] 	Lifewire. Available at: <https://www.lifewire.com/definition-of
+Mitchell, B., 2020. Computer Technology Is Based On The Concept Of The Bit. [online] Lifewire. Available at: <https://www.lifewire.com/definition-of
 -bit-816250> [Accessed 25 June 2020].
